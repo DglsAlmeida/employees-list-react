@@ -1,7 +1,13 @@
+import { EmployeesList } from './pages/EmployeesList';
+import { GlobalStyle } from './styles/global';
+
 const App = () => {
   return (
-    <h1>Hello World</h1>
+    <>
+      <GlobalStyle />
+      <EmployeesList />
+    </>
   )
 }
 
-export default App;
+export default App
