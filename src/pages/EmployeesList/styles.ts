@@ -76,35 +76,5 @@ export const EmployeesContent = styled.div`
       align-items: center;
       justify-content: center;
     }
-
-    button {
-      border: 0;
-      padding: 12px 20px;
-      width: 100px;
-      border-radius: 5px;
-      font-size: 16px;
-      transition: filter 0.2s;
-      color: #fff;
-
-      &:hover {
-        filter: brightness(0.9);
-      }
-    }
-
-    button:nth-of-type(1) {
-      background: #32CD32;
-    }
-
-    button:nth-of-type(2) {
-      background: red;
-    }
-
-    button:nth-of-type(3) {
-      background: aquamarine;
-    }
-
-    button + button {
-      margin-left: 10px;
-    }
   }
 `;
